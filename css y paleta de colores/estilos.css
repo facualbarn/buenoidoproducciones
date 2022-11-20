@@ -41,10 +41,14 @@ p{
 .letra{
     font-family: 'Roboto', sans-serif;
 } /*engloba h2 y p*/
+.letratitular{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
 .titulo{
     display: grid;
     align-items: center;
-    justify-items: start;
+    justify-items: center;
 }
 .iconos{
     display: flex;
