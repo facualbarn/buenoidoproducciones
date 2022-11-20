@@ -36,7 +36,32 @@ p{
 .letra{
     font-family: 'Roboto', sans-serif;
 } /*engloba h2 y p*/
-.encabezado{
+.titulo{
+    border-style: solid;
+    border-color: white;
+    display: grid;
+    align-items: center;
+    justify-items: start;
+}
+.logoprincipal{
+    border-style: solid;
+    border-color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.iconos{
+    border-style: solid;
+    border-color: white;
+}
+.iconos ul{
+    display: grid;
+    grid-template-columns: repeat(5fr);
+    align-items: baseline;
+    justify-items: center;
+    list-style-type: none;
+}
+/*.encabezado{
     height: 140px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -48,7 +73,7 @@ p{
    display: grid;
    grid-template-columns: repeat(5, 1fr);
    gap: 59px;
-}
+}*/
 .menu{
     height: 36px;
     border-style: ridge;
@@ -97,8 +122,6 @@ p{
     align-items: center;
 }
 .canciones{
-   /*border-style: solid;*/
-   /*border-color: aqua;*/
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
 }
