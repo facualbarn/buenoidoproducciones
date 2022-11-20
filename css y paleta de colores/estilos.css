@@ -64,30 +64,14 @@ p{
 .iconos ul li{
     margin: 25px;
 }
-/*.encabezado{
-    height: 140px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-items: center;
-}
-.iconos ul{
-   list-style-type: none;
-   display: grid;
-   grid-template-columns: repeat(5, 1fr);
-   gap: 59px;
-}*/
 .menu{
-    height: 36px;
     border-style: ridge;
     border-width: 4px;
     border-color: #555555;
     border-radius: 7px;
     list-style-type: none;
     background-color: #9b9b9b;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    text-align: center;
 }
 .menu li a{
     color: #000000;
