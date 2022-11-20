@@ -41,6 +41,10 @@ p{
 .letra{
     font-family: 'Roboto', sans-serif;
 } /*engloba h2 y p*/
+.letrapresentacion{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
 .letratitular{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -80,12 +84,16 @@ p{
     font-family: 'Comfortaa', cursive;
 }
 .titulos{
-    height: 100px;
+    /*height: 100px;
     padding-top: 12px;
     margin-left: 16px;
     margin-right: 16px;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 25px;*/
+    /*display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;*/
     background-image: linear-gradient(
         150deg,
         hsl(0deg 0% 100%) 0%,
@@ -103,10 +111,8 @@ p{
         hsl(0deg 0% 90%) 100%
       );
     border-radius: 7px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
-    align-items: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
 }
 .canciones{
    /*border-style: solid;*/
