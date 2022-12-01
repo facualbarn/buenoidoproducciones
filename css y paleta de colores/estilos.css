@@ -154,7 +154,7 @@ p{
 .noticiaindividual1{
     background-image: url(../imagenes/noticias/noticiasecundaria1.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 110%;
     height: 27rem;
     display: grid;
     align-content: center;
@@ -163,7 +163,7 @@ p{
 .noticiaindividual2{
     background-image: url(../imagenes/noticias/noticiasecundaria2.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 110%;
     height: 27rem;
     display: grid;
     align-content: center;
@@ -172,7 +172,7 @@ p{
 .noticiaindividual3{
     background-image: url(../imagenes/noticias/noticiasecundaria3.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 110%;
     height: 27rem;
     display: grid;
     align-content: center;
@@ -181,16 +181,16 @@ p{
 .noticiaindividual4{
     background-image: url(../imagenes/noticias/noticiaterciaria1.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    /*background-size: 100%;*/
     height: 27rem;
     display: grid;
     align-content: center;
     align-content: flex-end;
 }
 .noticiaindividual5{
-    background-image: url(../imagenes/noticias/noticiaterciaria2.jpg);
+    background-image: url(../imagenes/noticias/noticiaterciaria2.webp);
     background-repeat: no-repeat;
-    background-size: 100%;
+    /*background-size: 100%;*/
     background-position: bottom;
     height: 21rem;
     display: grid;
@@ -200,25 +200,24 @@ p{
 .noticiaindividual6{
     background-image: url(../imagenes/noticias/noticiaterciaria3.jpg);
     background-repeat: no-repeat;
-    background-size: 144%;
+    background-size: 106%;
     height: 21rem;
     display: grid;
     align-content: center;
     align-content: flex-end;
 }
 .noticiaindividual7{
-    background-image: url(../imagenes/noticias/noticiaterciaria4.jpg);
+    background-image: url(../imagenes/noticias/noticiaterciaria4.png);
     background-repeat: no-repeat;
-    background-size: 144%;
+    /*background-size: 144%;*/
     height: 21rem;
     display: grid;
     align-content: center;
     align-content: flex-end;
 }
 .noticiaprincipal{
-    background-image: url(../imagenes/noticias/noticiaprincipal.jpg);
+    background-image: url(../imagenes/noticias/noticiaprincipal.png);
     background-repeat: no-repeat;
-    background-size: 100%;
     height: 27rem;
     display: grid;
     align-content: center;
