@@ -1,0 +1,25 @@
+.cajacancion{
+    background-image: linear-gradient(
+        150deg,
+        hsl(0deg, 0%, 76%) 0%,
+        hsl(344deg, 0%, 64%) 4%,
+        hsl(344deg, 0%, 52%) 7%,
+        hsl(344deg, 0%, 41%) 10%,
+        hsl(344deg, 0%, 34%) 12%,
+        hsl(344deg, 0%, 35%) 14%,
+        hsl(344deg, 0%, 36%) 16%,
+        hsl(344deg, 0%, 37%) 18%,
+        hsl(344deg, 0%, 42%) 20%,
+        hsl(344deg, 0%, 49%) 24%,
+        hsl(344deg, 0%, 56%) 31%,
+        hsl(0deg, 0%, 63%) 62%
+      );
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #313131;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}

@@ -1,0 +1,104 @@
+.imagenesartistas{
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.artistaseccion{
+    background-image: linear-gradient(
+        225deg,
+        hsl(0deg, 0%, 92%) 0%,
+        hsl(183deg, 32%, 77%) 3%,
+        hsl(184deg, 41%, 62%) 6%,
+        hsl(183deg, 100%, 35%) 8%,
+        hsl(184deg, 34%, 54%) 11%,
+        hsl(183deg, 19%, 63%) 13%,
+        hsl(0deg, 0%, 70%) 15%,
+        hsl(221deg, 2%, 54%) 17%,
+        hsl(221deg, 4%, 40%) 18%,
+        hsl(220deg, 9%, 26%) 20%,
+        hsl(221deg, 4%, 40%) 22%,
+        hsl(221deg, 2%, 54%) 25%,
+        hsl(0deg, 0%, 70%) 37%
+      );
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+.imagenesmasartistas{
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+    justify-items: center; 
+    height: 18rem;
+    width: 18rem;
+}
+.artistatexto{
+    display: grid;
+    align-content: flex-start;
+    h4{
+        text-align: center;
+    }
+}
+.iconosartistas{
+    display: flex;
+    align-items: baseline;
+    ul{
+        list-style-type: none;
+        display: flex;
+        align-self: center;
+        justify-content: start;
+        padding: 0%;
+    }
+}
+.iconoindividual1{
+    margin: 7px;
+    padding: 0%;
+}
+
+.videoyoutubeartistas{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 0%;
+}
+.masartistas{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(
+        30deg,
+        hsl(0deg, 0%, 92%) 1%,
+        hsl(344deg, 0%, 84%) 39%,
+        hsl(344deg, 0%, 77%) 47%,
+        hsl(0deg, 0%, 70%) 50%,
+        hsl(344deg, 0%, 59%) 51%,
+        hsl(344deg, 0%, 48%) 51%,
+        hsl(0deg, 0%, 37%) 50%,
+        hsl(344deg, 0%, 48%) 49%,
+        hsl(344deg, 0%, 60%) 49%,
+        hsl(0deg, 0%, 72%) 50%,
+        hsl(344deg, 0%, 78%) 53%,
+        hsl(344deg, 0%, 85%) 61%,
+        hsl(0deg, 0%, 92%) 99%
+      );
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+}
+.otroartista1{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 2rem;
+    h4{
+        padding: 10px;
+        background-color: #5a5a5a;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+}

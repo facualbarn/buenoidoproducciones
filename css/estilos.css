@@ -20,46 +20,6 @@ body {
   background: radial-gradient(circle, gray 20%, #878787 51%, rgba(178, 178, 178, 0) 70%);
   border-radius: 3rem; }
 
-h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 27px; }
-
-h2 {
-  font-size: 2rem;
-  letter-spacing: 2px; }
-
-h4 {
-  font-family: 'Comfortaa', cursive; }
-
-.h4index {
-  font-family: 'Comfortaa', cursive;
-  font-size: 23px;
-  padding-top: 20px; }
-
-h5 {
-  font-family: 'Roboto', sans-serif; }
-
-.h5index {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  margin-top: 7px;
-  text-align: center; }
-
-p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem; }
-
-.letra {
-  font-family: 'Roboto', sans-serif; }
-
-.letrapresentacion {
-  font-family: 'Roboto', sans-serif;
-  text-align: center; }
-
-.letratitular {
-  font-family: 'Roboto', sans-serif;
-  text-align: center; }
-
 .titulo {
   display: grid;
   align-items: center;
@@ -112,19 +72,56 @@ p {
   padding-top: 1rem;
   margin-bottom: 1rem; }
 
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 27px; }
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 2px; }
+
+h4 {
+  font-family: 'Comfortaa', cursive; }
+
+.h4index {
+  font-family: 'Comfortaa', cursive;
+  font-size: 23px;
+  padding-top: 20px; }
+
+h5 {
+  font-family: 'Roboto', sans-serif; }
+
+.h5index {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 7px;
+  text-align: center; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem; }
+
+.letra {
+  font-family: 'Roboto', sans-serif; }
+
+.letrapresentacion {
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
+
+.letratitular {
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
+
 .cajacancion {
   background-image: linear-gradient(150deg, #c2c2c2 0%, #a3a3a3 4%, #858585 7%, dimgray 10%, #575757 12%, #595959 14%, #5c5c5c 16%, #5e5e5e 18%, #6b6b6b 20%, #7d7d7d 24%, #8f8f8f 31%, #a1a1a1 62%);
   border-style: solid;
   border-radius: 15px;
   border-color: #313131;
   margin-bottom: 1rem;
+  padding-bottom: 1rem;
   display: grid;
   align-items: center;
   justify-items: center; }
-
-.imagenesartistas {
-  margin-bottom: 1rem;
-  border-radius: 10px; }
 
 .noticiaindividual1 {
   background-image: url(../imagenes/noticias/noticiasecundaria1.jpg);
@@ -243,6 +240,10 @@ p {
   margin: 10px;
   border-radius: 5px;
   margin-bottom: 3rem; }
+
+.imagenesartistas {
+  margin-bottom: 1rem;
+  border-radius: 10px; }
 
 .artistaseccion {
   background-image: linear-gradient(225deg, #ebebeb 0%, #b2d5d7 3%, #76c1c6 6%, #00aab3 8%, #62acb2 11%, #8fb1b3 13%, #b3b3b3 15%, #87898c 17%, #62656a 18%, #3c4048 20%, #62656a 22%, #87898c 25%, #b3b3b3 37%);
