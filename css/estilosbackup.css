@@ -32,11 +32,22 @@ h2{
 h4{
     font-family: 'Comfortaa', cursive;
 }
+.h4index{
+    font-family: 'Comfortaa', cursive;
+    font-size: 23px;
+    padding-top: 20px;
+}
 .noticiaprincipal h4{
     font-size: 2rem;
 }
 h5{
     font-family: 'Roboto', sans-serif;
+}
+.h5index{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: 7px;
+    text-align: center;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -454,17 +465,6 @@ p{
     background-color: #424242;
     border-color: #414141;
     margin-bottom: 3rem;
-}
-.h4index{
-    font-family: 'Comfortaa', cursive;
-    font-size: 23px;
-    padding-top: 20px;
-}
-.h5index{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    margin-top: 7px;
-    text-align: center;
 }
 .ubicacion{
     height: 300px;

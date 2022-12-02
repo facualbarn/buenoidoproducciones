@@ -1,12 +1,12 @@
 {
   "name": "buen-oido-producciones",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina web de una productora musical",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": 
-  "node-sass --include-path scss scss/estilo.scss css y paleta de colores/estilos.css",
+  "node-sass --include-path scss sass/estilo.scss css/estilos.css",
   "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
   },
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/facualbarn/buenoidoproducciones.git"
   },
-  "author": "",
+  "author": "Pizarro Facundo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/facualbarn/buenoidoproducciones/issues"
