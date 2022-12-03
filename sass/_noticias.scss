@@ -1,29 +1,22 @@
-.noticiaindividual1{
-    background-image: url(../imagenes/noticias/noticiasecundaria1.jpg);
+@mixin noticiasformato1 {
     background-repeat: no-repeat;
     background-size: 110%;
     height: 27rem;
     display: grid;
     align-content: center;
     align-content: flex-end;
+}
+.noticiaindividual1{
+    background-image: url(../imagenes/noticias/noticiasecundaria1.jpg);
+    @include noticiasformato1()
 }
 .noticiaindividual2{
     background-image: url(../imagenes/noticias/noticiasecundaria2.png);
-    background-repeat: no-repeat;
-    background-size: 110%;
-    height: 27rem;
-    display: grid;
-    align-content: center;
-    align-content: flex-end;
+    @include noticiasformato1()
 }
 .noticiaindividual3{
     background-image: url(../imagenes/noticias/noticiasecundaria3.jpg);
-    background-repeat: no-repeat;
-    background-size: 110%;
-    height: 27rem;
-    display: grid;
-    align-content: center;
-    align-content: flex-end;
+    @include noticiasformato1()
 }
 .noticiaindividual4{
     background-image: url(../imagenes/noticias/noticiaterciaria1.jpg);
