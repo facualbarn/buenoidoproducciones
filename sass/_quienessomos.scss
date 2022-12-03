@@ -29,10 +29,7 @@
     text-shadow: 2px 2px 5px rgb(97, 97, 97);
 }
 .ubicacion1{
-    display: grid;
-    align-items: center;
-    justify-items: center; 
-    text-align: center;
+    @extend .artistacreador
 }
 .btn{
     background-color: #424242;

@@ -312,7 +312,7 @@ p {
     border-radius: 5px;
     margin-bottom: 1rem; }
 
-.artistacreador {
+.artistacreador, .ubicacion1 {
   display: grid;
   align-items: center;
   justify-items: center;
@@ -340,12 +340,6 @@ p {
   justify-items: center;
   margin-top: 5rem;
   text-shadow: 2px 2px 5px #616161; }
-
-.ubicacion1 {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  text-align: center; }
 
 .btn {
   background-color: #424242;
